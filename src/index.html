@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playball&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Sweet charm - Delicious Cupcakes</title>
 </head>
 <body>
@@ -18,17 +22,39 @@
         </nav>
     </header>
 
-    <main>
+    <main class="px-40 min-h-screen">
         <!-- Banner -->
         <section>BANNER</section>
 
         <!-- Benefits -->
-        <section>
-            <div></div>
+        <section class="flex gap-10">
+            <div class="flex gap-4">
+                <img src="../assets/icon/mdi_package-outline.svg" alt="" class="w-16">
+                <div>
+                    <h4 class="font-bold uppercase text-lg">Embalagens presenteáveis</h4>
+                    <p>There is no one who loves pain itself, who seeks after it and wants to have it. </p>
+                </div>
+            </div>
+            <div class="flex gap-4">
+                <img src="../assets/icon/lets-icons_cake.svg" alt="" class="w-16">
+                <div>
+                    <h4 class="font-bold uppercase text-lg">deliciosos e saudáveis</h4>
+                    <p>There is no one who loves pain itself, who seeks after it and wants to have it. </p>
+                </div>
+            </div>
+            <div class="flex gap-4">
+                <img src="../assets/icon/mdi_truck-fast-outline.svg" alt="" class="w-16">
+                <div>
+                    <h4 class="font-bold uppercase text-lg">entrega rápida</h4>
+                    <p>There is no one who loves pain itself, who seeks after it and wants to have it. </p>
+                </div>
+            </div>
         </section>
 
         <!-- Products -->
-        <section></section>
+        <section>
+            <h2 class="font-playball text-5xl text-center">Mini menu</h2>
+        </section>
 
         <!-- About Us -->
         <section></section>
@@ -37,9 +63,9 @@
         <section></section>
     </main>
 
-    <footer>
+    <footer class="px-40 py-14 flex justify-between items-center bg-light">
         <!-- Navigation -->
-        <nav>
+        <nav class="flex gap-10">
             <a href="">Home</a>
             <a href="">Products</a>
             <a href="">About Us</a>
@@ -48,7 +74,7 @@
 
         <!-- Social midias -->
         <div>
-            <div>icon 1</div>
+            <img src="../assets/icon/ic_outline-email.png" alt="" >
             <div>icon 2</div>
             <div>icon 3</div>
         </div>
