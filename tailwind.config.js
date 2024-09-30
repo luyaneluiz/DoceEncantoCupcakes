@@ -6,6 +6,12 @@ module.exports = {
       colors: {
         pink: "#E09796",
         grey: "#8d8d8d",
+        light: "#F9F9F9",
+        
+      },
+      fontFamily: {
+        sans: ["Poppins", "sans-serif"],
+        playball: ["Playball", "cursive"],
       }
     },
   },
