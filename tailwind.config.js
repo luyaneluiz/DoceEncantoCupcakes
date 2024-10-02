@@ -12,6 +12,11 @@ module.exports = {
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
         playball: ["Playball", "cursive"],
+        raleway: ["Raleway", "sans-serif"],
+        pacifico: ["Pacifico", "cursive"],
+      },
+      backgroundImage: {
+        'banner': "url(../assets/Background.png)"
       }
     },
   },

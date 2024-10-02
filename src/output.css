@@ -558,14 +558,6 @@ video {
   margin-bottom: 0.25rem;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -578,20 +570,16 @@ video {
   display: grid;
 }
 
-.h-32 {
-  height: 8rem;
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .min-h-screen {
   min-height: 100vh;
-}
-
-.w-16 {
-  width: 4rem;
-}
-
-.w-48 {
-  width: 12rem;
 }
 
 .w-full {
@@ -606,12 +594,12 @@ video {
   flex-direction: column;
 }
 
-.items-start {
-  align-items: flex-start;
-}
-
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -626,6 +614,14 @@ video {
   gap: 2.5rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -634,48 +630,16 @@ video {
   gap: 1rem;
 }
 
-.gap-32 {
-  gap: 8rem;
-}
-
-.gap-28 {
-  gap: 7rem;
-}
-
-.gap-24 {
-  gap: 6rem;
-}
-
-.gap-20 {
-  gap: 5rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .gap-5 {
   gap: 1.25rem;
 }
 
-.gap-1 {
-  gap: 0.25rem;
+.overflow-hidden {
+  overflow: hidden;
 }
 
-.gap-9 {
-  gap: 2.25rem;
-}
-
-.gap-12 {
-  gap: 3rem;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .rounded-full {
@@ -687,14 +651,26 @@ video {
   background-color: rgb(249 249 249 / var(--tw-bg-opacity));
 }
 
+.bg-pink {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 151 150 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-pink {
-  --tw-bg-opacity: 1;
-  background-color: rgb(224 151 150 / var(--tw-bg-opacity));
+.bg-banner {
+  background-image: url(../assets/Background.png);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .px-20 {
@@ -730,9 +706,29 @@ video {
   font-family: Playball, cursive;
 }
 
+.font-raleway {
+  font-family: Raleway, sans-serif;
+}
+
+.font-pacifico {
+  font-family: Pacifico, cursive;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-\[100px\] {
+  font-size: 100px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[80px\] {
+  font-size: 80px;
 }
 
 .text-lg {
@@ -750,11 +746,6 @@ video {
 
 .uppercase {
   text-transform: uppercase;
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-grey {

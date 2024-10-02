@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playball&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Sweet charm - Delicious Cupcakes</title>
 </head>
@@ -29,7 +31,19 @@
 
     <main class="px-40 min-h-screen flex flex-col gap-20">
         <!-- Banner -->
-        <section id="home">BANNER</section>
+        <section id="home" class="bg-banner bg-cover bg-center rounded-2xl h-[600px] overflow-hidden">
+            <div class="w-full h-full flex justify-end">
+                <div>
+                    <div>
+                        <h1 class="font-playball text-[80px]">Adoçe seu dia</h1>
+                        <h1 class="font-raleway text-[40px]">com nossos irresistíveis</h1>
+                        <h1 class="font-pacifico text-[100px]">cupcakes!!!</h1>
+                    </div>
+                    <button>COMPRAR JÁ</button>
+                </div>
+                <img src="../assets/cupcake_principal.png" alt="Cupcake marrom e verde" class="h-full">
+            </div>
+        </section>
 
         <!-- Benefits -->
         <section class="flex gap-10" id="diferenciais">
@@ -124,10 +138,10 @@
         </nav>
 
         <!-- Social midias -->
-        <div>
-            <div>icon 1</div>
-            <div>icon 2</div>
-            <div>icon 3</div>
+        <div class="flex gap-3">
+            <img src="../assets/icon/ic_outline-email.svg" alt="ícone de e-mail" width="30">
+            <img src="../assets/icon/ic_baseline-facebook.svg" alt="Logo do facebook" width="30">
+            <img src="../assets/icon/mdi_instagram.svg" alt="Logo do instagram" width="30">
         </div>
     </footer>
 </body>
