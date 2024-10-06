@@ -7,7 +7,7 @@ module.exports = {
         pink: "#E09796",
         grey: "#8d8d8d",
         light: "#F9F9F9",
-        
+        'pink-hover': "rgb(237 150 149)",
       },
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
