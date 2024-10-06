@@ -12,3 +12,10 @@ nav a:hover {
     transition: all 0.3s ease;
     color: #E09796;
 }
+
+.anchor-offset::before {
+    content: "";
+    display: block;
+    height: 80px; /* Altura do cabeçalho fixo */
+    margin-top: -80px; /* Altura do cabeçalho fixo */
+}
