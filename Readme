@@ -1,16 +1,20 @@
-🍰 Doce Encanto - Deliciosos Cupcakes
-Descrição
-Doce Encanto é uma aplicação web que oferece uma experiência irresistível para quem ama cupcakes. Com uma interface encantadora, você pode navegar pelo nosso menu, conhecer nossos diferenciais e personalizar seus cupcakes conforme suas preferências. Seja para adoçar o seu dia ou presentear alguém especial, nossos cupcakes são sempre a escolha perfeita!
+# 🍰 Doce Encanto - Deliciosos Cupcakes
 
-🔗 Confira o design no Figma
+## Descrição
 
-🚀 Tecnologias Utilizadas
-HTML
-CSS (TailwindCSS)
-JavaScript
-📂 Estrutura do Projeto
-bash
-Copiar código
+**Doce Encanto** é uma aplicação web que oferece uma experiência irresistível para quem ama cupcakes. Com uma interface encantadora, você pode navegar pelo nosso menu, conhecer nossos diferenciais e personalizar seus cupcakes conforme suas preferências. Seja para adoçar o seu dia ou presentear alguém especial, nossos cupcakes são sempre a escolha perfeita!
+
+[🔗 Confira o design no Figma](https://www.figma.com/design/DgbANY3c2oxatHXiEv19wW/Landing-Page---Doce-Encanto?node-id=0-1&t=7wjErLaRYRtGkIvZ-1)
+
+## 🚀 Tecnologias Utilizadas
+
+- **HTML** 
+- **CSS (TailwindCSS)**
+- **JavaScript**
+
+## 📂 Estrutura do Projeto
+
+```bash
 doce-encanto/
 ├── assets/
 │   ├── logo.png
@@ -23,26 +27,3 @@ doce-encanto/
 │   ├── output.css
 ├── index.html
 └── README.md
-🛠️ Como Executar o Projeto
-Clone este repositório:
-
-bash
-Copiar código
-git clone https://github.com/seu-usuario/doce-encanto.git
-Acesse o diretório do projeto:
-
-bash
-Copiar código
-cd doce-encanto
-Abra o arquivo index.html no seu navegador preferido para visualizar a página.
-
-Caso queira compilar o TailwindCSS, execute o seguinte comando:
-
-bash
-Copiar código
-npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
-🌟 Contribuições
-Contribuições são sempre bem-vindas! Se você encontrar algum problema ou tiver uma sugestão de melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-📄 Licença
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais detalhes.
