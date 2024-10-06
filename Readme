@@ -24,7 +24,18 @@ Doce Encanto é uma aplicação web que oferece uma experiência deliciosa com c
     ```
 
 ## Estrutura do Projeto
-doce-encanto/ ├── assets/ │ ├── logo.png │ ├── cupcake_principal.png │ └── ... (outros arquivos de imagem) ├── css/ │ └── styles.css ├── src/ │ ├── input.css │ ├── output.css ├── index.html └── README.md
+doce-encanto/ 
+├── assets/ 
+│ ├── logo.png 
+│ ├── cupcake_principal.png 
+│ └── ... (outros arquivos de imagem) 
+├── css/ 
+│ └── styles.css 
+├── src/ 
+│ ├── input.css 
+│ ├── output.css 
+├── index.html 
+└── README.md
 
 
 ## Contribuição
