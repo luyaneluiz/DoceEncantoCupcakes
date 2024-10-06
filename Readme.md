@@ -27,3 +27,21 @@ doce-encanto/
 │   ├── output.css
 ├── index.html
 └── README.md
+
+## 🛠️ Como Executar o Projeto
+
+Clone este repositório:
+
+```bash
+git clone https://github.com/seu-usuario/doce-encanto.git
+
+Acesse o diretório do projeto:
+```bash
+cd doce-encanto
+
+Abra o arquivo index.html no seu navegador preferido para visualizar a página.
+
+Caso queira compilar o TailwindCSS, execute o seguinte comando:
+```bash
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
