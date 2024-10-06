@@ -1,0 +1,34 @@
+# Doce Encanto - Deliciosos Cupcakes
+
+## Descrição
+Doce Encanto é uma aplicação web que oferece uma experiência deliciosa com cupcakes irresistíveis. Navegue pelo nosso menu, conheça nossos diferenciais e personalize seus cupcakes de acordo com suas preferências.
+
+## Tecnologias Utilizadas
+- HTML
+- CSS (TailwindCSS)
+- JavaScript
+
+## Como Executar o Projeto
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/doce-encanto.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd doce-encanto
+    ```
+3. Abra o arquivo `index.html` no seu navegador preferido.
+4. Execute o comando para compilar o TailwindCSS:
+    ```bash
+    npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+    ```
+
+## Estrutura do Projeto
+doce-encanto/ ├── assets/ │ ├── logo.png │ ├── cupcake_principal.png │ └── ... (outros arquivos de imagem) ├── css/ │ └── styles.css ├── src/ │ ├── input.css │ ├── output.css ├── index.html └── README.md
+
+
+## Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+
+## Licença
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
