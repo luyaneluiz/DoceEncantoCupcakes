@@ -39,8 +39,8 @@ jobs:
           # Uploading the root files, assets, and css folder
           path: |
             index.html
-            assets/
-            css/
+            assets
+            css
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
