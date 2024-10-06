@@ -36,8 +36,11 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload only the files that are in the root and exclude unnecessary directories
-          path: './index.html, ./assets, ./css'
+          # Uploading the root files, assets, and css folder
+          path: |
+            index.html
+            assets/
+            css/
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
