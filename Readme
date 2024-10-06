@@ -1,46 +1,48 @@
-# Doce Encanto - Deliciosos Cupcakes
+🍰 Doce Encanto - Deliciosos Cupcakes
+Descrição
+Doce Encanto é uma aplicação web que oferece uma experiência irresistível para quem ama cupcakes. Com uma interface encantadora, você pode navegar pelo nosso menu, conhecer nossos diferenciais e personalizar seus cupcakes conforme suas preferências. Seja para adoçar o seu dia ou presentear alguém especial, nossos cupcakes são sempre a escolha perfeita!
 
-## Descrição
-Doce Encanto é uma aplicação web que oferece uma experiência deliciosa com cupcakes irresistíveis. Navegue pelo nosso menu, conheça nossos diferenciais e personalize seus cupcakes de acordo com suas preferências.
+🔗 Confira o design no Figma
 
-## Tecnologias Utilizadas
-- HTML
-- CSS (TailwindCSS)
-- JavaScript
-
-## Como Executar o Projeto
-1. Clone o repositório:
-    ```bash
-    git clone https://github.com/seu-usuario/doce-encanto.git
-    ```
-2. Navegue até o diretório do projeto:
-    ```bash
-    cd doce-encanto
-    ```
-3. Abra o arquivo `index.html` no seu navegador preferido.
-
-4. Caso necessário, execute o comando para compilar o TailwindCSS:
-    ```bash
-    npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
-    ```
-
-## Estrutura do Projeto
-doce-encanto/ 
-├── assets/ 
-│ ├── logo.png 
-│ ├── cupcake_principal.png 
-│ └── ... (outros arquivos de imagem) 
-├── css/ 
-│ └── styles.css 
-├── src/ 
-│ ├── input.css 
-│ ├── output.css 
-├── index.html 
+🚀 Tecnologias Utilizadas
+HTML
+CSS (TailwindCSS)
+JavaScript
+📂 Estrutura do Projeto
+bash
+Copiar código
+doce-encanto/
+├── assets/
+│   ├── logo.png
+│   ├── cupcake_principal.png
+│   └── ... (outros arquivos de imagem)
+├── css/
+│   └── styles.css
+├── src/
+│   ├── input.css
+│   ├── output.css
+├── index.html
 └── README.md
+🛠️ Como Executar o Projeto
+Clone este repositório:
 
+bash
+Copiar código
+git clone https://github.com/seu-usuario/doce-encanto.git
+Acesse o diretório do projeto:
 
-## Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+bash
+Copiar código
+cd doce-encanto
+Abra o arquivo index.html no seu navegador preferido para visualizar a página.
 
-## Licença
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Caso queira compilar o TailwindCSS, execute o seguinte comando:
+
+bash
+Copiar código
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+🌟 Contribuições
+Contribuições são sempre bem-vindas! Se você encontrar algum problema ou tiver uma sugestão de melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+📄 Licença
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais detalhes.
