@@ -17,7 +17,17 @@ module.exports = {
       },
       backgroundImage: {
         'banner': "url(../assets/Background.png)"
-      }
+      },
+      height: {
+        'screen-75': '75vh',
+      },
+      width: {
+        'screen-75': '75vw',
+      },
+      transitionProperty: {
+        'height': 'height',
+        'spacing': 'margin, padding',
+      },
     },
   },
   plugins: [],
